@@ -17,6 +17,8 @@ public class AddStrings {
         // else if(s2.equals("0")){
         // return s1;
         // }
+        //The above commented lines can be uncommented. I put them in thinking that they would improve runtime but leetcode gave me varying times. So i commented
+        //it out. 
         StringBuilder answer = new StringBuilder();
         int carry = 0;
         int i = s1.length() - 1;
